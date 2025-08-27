@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-demo',
   imports: [],
   template: `
-    <p>
+    <p class="text-primary ml-12 text-2xl">
       demo works!
     </p>
   `,

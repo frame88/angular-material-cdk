@@ -10,7 +10,6 @@ import { MatSidenavContainer, MatSidenavModule } from '@angular/material/sidenav
   imports: [RouterOutlet, Navbar, MatSidenavModule, MatIcon, MatIconButton],
   template: `
     <mat-sidenav-container>
-      //senza mode="side" la navbr sarebbe mostrata in overlay
       <mat-sidenav #sidenav mode="side" fixedInViewport class="!bg-red-400">
         <app-navbar />
       </mat-sidenav>
